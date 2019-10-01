@@ -1,0 +1,16 @@
+" .vimrc for gmo
+" v0.1
+
+set         term=builtin_ansi   " set to get colours working in macos
+syntax		on                  " set to get colours working in macos
+colorscheme	desert              " set colorscheme
+
+set         number              " turn on line numbers
+set         ruler               " turn on the ruler
+set         incsearch           " show search results while typing
+
+" Setup spaces and tabs for bash and python
+set         tabstop=4
+set         softtabstop=4
+set         expandtab
+set         autoindent
